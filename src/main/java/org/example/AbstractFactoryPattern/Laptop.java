@@ -1,5 +1,5 @@
 package org.example.AbstractFactoryPattern;
 
-interface Laptop {
+public interface Laptop {
     void getDetails();
 }

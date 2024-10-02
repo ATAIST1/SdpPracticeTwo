@@ -1,5 +1,5 @@
 package org.example.FactoryMethodPattern;
 
-interface Notification {
+public interface Notification {
     void notifyUser();
 }

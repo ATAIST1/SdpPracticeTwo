@@ -1,5 +1,5 @@
 package org.example.AbstractFactoryPattern;
 
-interface Smartphone {
+public interface Smartphone {
     void getDetails();
 }

@@ -1,6 +1,6 @@
 package org.example.AbstractFactoryPattern;
 
-interface DeviceFactory {
+public interface DeviceFactory {
     Smartphone createSmartphone();
     Laptop createLaptop();
 }

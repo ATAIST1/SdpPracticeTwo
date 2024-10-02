@@ -1,6 +1,6 @@
 package org.example.AbstractFactoryPattern;
 
-class SamsungFactory implements DeviceFactory {
+public class SamsungFactory implements DeviceFactory {
     @Override
     public Smartphone createSmartphone() {
         return new SamsungSmartphone();

@@ -1,6 +1,6 @@
 package org.example.FactoryMethodPattern;
 
-class NotificationFactory {
+public class NotificationFactory {
     public Notification createNotification(String type) {
         if (type.equalsIgnoreCase("EMAIL")) {
             return new EmailNotification();
